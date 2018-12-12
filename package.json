@@ -1,0 +1,28 @@
+{
+  "name": "amazon-price-scraper",
+  "version": "1.0.0",
+  "description": "A web scraper that scrapes an amazon product page for prices.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "start:ubuntu": "tsc && node ./dist/index.js ubuntu",
+    "start:headless": "tsc && node ./dist/index.js headless"
+  },
+  "keywords": [
+    "Puppeteer",
+    "web",
+    "scraper",
+    "amazon",
+    "javascript"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.11.0",
+    "puppeteer-helpers": "^1.0.10",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.11.1"
+  }
+}
