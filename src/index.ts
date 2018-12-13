@@ -31,7 +31,7 @@ import { getPropertyBySelector, setUpNewPage } from 'puppeteer-helpers';
             await page.goto(url);
             const price = await getPropertyBySelector(page, '#priceblock_ourprice', 'innerHTML');
             const vendor = await getPropertyBySelector(page, '#merchant-info a', 'innerHTML');
-            console.log('price, asin', price, vendor);
+            console.log('price, vendor', price, vendor);
 
             await page.close();
 
