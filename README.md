@@ -32,6 +32,7 @@ All you need to do is an install.
 ```
 npm i
 ```
+[Full Guide](https://javascriptwebscrapingguy.com/blog/jordan-scrapes-amazon-prices/)
 
 ## Built With
 
